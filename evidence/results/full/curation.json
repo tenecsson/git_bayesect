@@ -1,0 +1,586 @@
+{
+  "purpose": "Published randomized RIPr and OG evidence. Source hashes identify original inputs; transformations identify filtered or recomputed artifacts.",
+  "artifacts": [
+    {
+      "source": ".research-archive/evidence/results/champion-evidence-report-v1/summary.json",
+      "source_sha256": "f147e6ff12345c7e0c607784b62faabca4f92b602abf1872f69e39b6e7ad1750",
+      "artifact": "results/full/summary.json",
+      "sha256": "834e722a78048c2dc68b1220a25b837fe40f76a86adad1a45fc212255a76957a",
+      "compression": null,
+      "transformation": "Keep randomized RIPr and OG fields; regenerate derived comparison summaries for this scope."
+    },
+    {
+      "source": ".research-archive/evidence/results/champion-evidence-report-v1/report.txt",
+      "source_sha256": "b1f381d4561309feddf9c156094334a908aefe51993b3984fd7fb449c3aced16",
+      "artifact": "results/full/report.txt",
+      "sha256": "20a8da05f543fec6872b628eb661225ec6e2bdde42fe5462568bbb2f7462e295",
+      "compression": null,
+      "transformation": "Keep randomized RIPr and OG fields; regenerate derived comparison summaries for this scope."
+    },
+    {
+      "source": ".research-archive/evidence/results/champion-evidence-report-v1/paired_costs.csv",
+      "source_sha256": "e3769d97791cd3ff44422d67ce7241570b2968b84b268d534381189b65382861",
+      "artifact": "results/full/paired_costs.csv",
+      "sha256": "4da1518f4ba5ca60a819f65c5ce3a85275ba3ae9761ac851294e477cf44f957e",
+      "compression": null,
+      "transformation": "Keep randomized RIPr and OG fields; regenerate derived comparison summaries for this scope."
+    },
+    {
+      "source": ".research-archive/evidence/results/champion-evidence-report-v1/prior_gap_bins.csv",
+      "source_sha256": "b05f249c112de6b4c7d9d1704d3e1f6517347b5e1955009a195955539f18bd3e",
+      "artifact": "results/full/prior_gap_bins.csv",
+      "sha256": "a0242571d9f41b2c8d50704d7e1779c99e788d3ca8359e1c1db6bd76b8bb6924",
+      "compression": null,
+      "transformation": "Keep randomized RIPr and OG fields; regenerate derived comparison summaries for this scope."
+    },
+    {
+      "source": ".research-archive/evidence/results/champion-evidence-report-v1/small_alpha_slopes.csv",
+      "source_sha256": "17f102410112072223986fcaed47dc70f3e06ca6e1b4c9371f50c925abf93baf",
+      "artifact": "results/full/small_alpha_slopes.csv",
+      "sha256": "17f102410112072223986fcaed47dc70f3e06ca6e1b4c9371f50c925abf93baf",
+      "compression": null
+    },
+    {
+      "source": ".research-archive/evidence/results/champion-evidence-report-v1/archived_uniform_extension.txt",
+      "source_sha256": "07936ca575e4bbf4d18607476b0fd942ef5c4b54f2cbe4abfd2cf1aa11d0ed9c",
+      "artifact": "results/full/archived_uniform_extension.txt",
+      "sha256": "07936ca575e4bbf4d18607476b0fd942ef5c4b54f2cbe4abfd2cf1aa11d0ed9c",
+      "compression": null
+    },
+    {
+      "source": ".research-archive/evidence/results/champion-evidence-report-v1/trial_endpoints.csv",
+      "source_sha256": "e44958746904abed09f2e3593c4047e7cdfd3967337bea6bacd5ffff1a58a55c",
+      "artifact": "results/full/trial_endpoints.csv.gz",
+      "sha256": "57d6de19bd9e37641d4e11a95f830c698bf2f17acca8788ab84a036c068bc3ef",
+      "compression": "gzip",
+      "transformation": "Keep randomized RIPr and OG fields; regenerate derived comparison summaries for this scope."
+    },
+    {
+      "source": ".research-archive/evidence/results/champion-evidence-full-audit-v1/validation.json",
+      "source_sha256": "301a10528b988a5b2a4335e5c277161cd45cd622766eff801e6f3b2aa11619df",
+      "artifact": "results/full/trajectory-audit.json",
+      "sha256": "301a10528b988a5b2a4335e5c277161cd45cd622766eff801e6f3b2aa11619df",
+      "compression": null
+    },
+    {
+      "source": ".research-archive/evidence/results/champion-evidence-planning-v1/small-alpha-independent.json",
+      "source_sha256": "ac4389833859f2aa28ee60b62bf53c7c5382b4756ef7295f734f280175ed473f",
+      "artifact": "results/full/common-slope-audit.json",
+      "sha256": "a395fc3f9ba17089b264912d0a156506a5e4090635e6b1b7c76b5b28e7aac2bb",
+      "compression": null,
+      "transformation": "Keep randomized RIPr and OG fields; regenerate derived comparison summaries for this scope."
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e1_n64_0.2/trial-00000.json",
+      "source_sha256": "3d586759f526c944de60e923e04b8b8d6b160e39b8aa84ca1a0ab174aec482b7",
+      "artifact": "fixtures/e1_n64_0.2-00000.json.gz",
+      "sha256": "8a6f72e301e6576b87972161f9ef0c16e066ff7b62bec8314502e7a09a382c88",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e1_n64_0.3/trial-00000.json",
+      "source_sha256": "d72828feb2a741554848ef21c0ba17fd1407e318831558bdc1f73fc8e6d2c25a",
+      "artifact": "fixtures/e1_n64_0.3-00000.json.gz",
+      "sha256": "024b8ed434b80b3b40d5f57edfdbbbff95da8c267df28e4c2ea6bea4ff5da909",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e1_n64_0.5/trial-00000.json",
+      "source_sha256": "a5836686fb5b99bc5ce2e6196adfe602b335634f200af0faabb964bf3cdac7fe",
+      "artifact": "fixtures/e1_n64_0.5-00000.json.gz",
+      "sha256": "76a1d17ae1bec3d97c51c294248a1e241df1aae6f6c281b057795ce81dabf1c6",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e1_n256_0.2/trial-00000.json",
+      "source_sha256": "f24b915e10240744e6476094406cf840356ed4537c7658fda6823280744e210f",
+      "artifact": "fixtures/e1_n256_0.2-00000.json.gz",
+      "sha256": "0fe1b565e5169b5add39c2d1a5dde0ef21fd53e8d036eee95bfc383ae3daaf18",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_n64_0.3_drift/trial-00000.json",
+      "source_sha256": "49eeede9af2dca7a1c4460a53937a771710ac0a4587d82cae7c64848ffbc837d",
+      "artifact": "fixtures/e3_n64_0.3_drift-00000.json.gz",
+      "sha256": "f6f81104d021eadfb227e5193bd4e483825c42e36f158f3dbe99eafbcfa78b63",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_n64_0.3_partial_fix/trial-00000.json",
+      "source_sha256": "a1544463b61d1e7c7036d1025d95d40f63888af6fdcb8c1e60a56929b5f2fbaf",
+      "artifact": "fixtures/e3_n64_0.3_partial_fix-00000.json.gz",
+      "sha256": "6baf9ebf46fc8564a03837f13835b3469c37b41ef74a4addcb04a89712b1a38d",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_n64_0.3_two_step/trial-00000.json",
+      "source_sha256": "a4c90dc8ce22a34ef50e87c3039f58f7fec12e7cd33f382e3122c1b677beb4f8",
+      "artifact": "fixtures/e3_n64_0.3_two_step-00000.json.gz",
+      "sha256": "6602ec0bda57603eb148e5047d704b613671596b46630e413164abc2c8462f99",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_n64_0.3_jitter/trial-00000.json",
+      "source_sha256": "6bddf01527a02a32b7b7a556f9e1143fa4fe6bc390786930647c6d0ccc0ca1df",
+      "artifact": "fixtures/e3_n64_0.3_jitter-00000.json.gz",
+      "sha256": "a4385d1824187a6cc8fd80db97a885a026191ce044105d17575d5302e92b030d",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_n64_0.3_bursty/trial-00000.json",
+      "source_sha256": "ff4ac528f76bab881458c6f90f60aeadbac8d82843f65f5bc3c28ae566cc10f9",
+      "artifact": "fixtures/e3_n64_0.3_bursty-00000.json.gz",
+      "sha256": "42f6a22457df4328eed290dab1836ca7f37226171db8c96e70c5543b50b59ad9",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_n64_0.3_broken/trial-00000.json",
+      "source_sha256": "51bc5a403e59ae3c1022ad989464993f30228d420c97645b1fdbfd46f2fefc25",
+      "artifact": "fixtures/e3_n64_0.3_broken-00000.json.gz",
+      "sha256": "be5bff9fecf48e89d0a4e3d1c54a09f0e32994d7c56c2bbf02771ac565161b82",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_n64_0.3_ramp/trial-00000.json",
+      "source_sha256": "b8fd3bea3c125627310c0b44de5ba917bd2ea554d50a1cd20666f24eb557dffa",
+      "artifact": "fixtures/e3_n64_0.3_ramp-00000.json.gz",
+      "sha256": "bbdf144f0c78d178ad281fb06ce602b08a9423d31b8b1f037df85da1de1b0f3e",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_n64_0.3_jitter_strong/trial-00000.json",
+      "source_sha256": "893fc376e4bec25a88d4a0482780422985cd7bfbe61990e6afa584ee8d29506d",
+      "artifact": "fixtures/e3_n64_0.3_jitter_strong-00000.json.gz",
+      "sha256": "83b9c6d2dbfb17a82fb85518821b627a55b1c15175b6e762da161465bd7b22c2",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e1_n16_0.2/trial-00000.json",
+      "source_sha256": "449f88210ae7fcd347de7a311d7680535eba6247c917f6016633e6211462793c",
+      "artifact": "fixtures/e1_n16_0.2-00000.json.gz",
+      "sha256": "dc48c06436d7a3dde8c3dd7283df99dbed01037cf47f7a85f662f69ac7bcc4b6",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e1_n16_0.3/trial-00000.json",
+      "source_sha256": "7ce6cff553ee8f903382891fd7139489d85adeb001b5a7d87dc4c013c0fb1fac",
+      "artifact": "fixtures/e1_n16_0.3-00000.json.gz",
+      "sha256": "e84df694907c892a57235a3ee7091b01426f3bf69e5c2735cd04dd7354bacfeb",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e1_n16_0.5/trial-00000.json",
+      "source_sha256": "c0025e7dc4a15495bc875ceb653a396a0498e0243593923f66f2061f30900028",
+      "artifact": "fixtures/e1_n16_0.5-00000.json.gz",
+      "sha256": "99a4091df95ab2ae9f682a2e0c66a47787094e60f41a88881297f2fd4728d111",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e1_n16_low/trial-00000.json",
+      "source_sha256": "8e2a5ee70e4f9730583276cad088fc92beb13e639a72a1eb3d340f61146e7a2f",
+      "artifact": "fixtures/e1_n16_low-00000.json.gz",
+      "sha256": "854bd1fa4b8b6f4be4256fb7a497d0001d0fbd07249bfa69b746da653fa03fb6",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e1_n64_low/trial-00000.json",
+      "source_sha256": "d5fbf7e8db8596acdca531a2ba1488c92e6589b65289c25866957b5608cf60ea",
+      "artifact": "fixtures/e1_n64_low-00000.json.gz",
+      "sha256": "acb71caab5aa68f07b387316d63ad1ee4acdfb9465d7bbc2bfb4552940147487",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e1_n64_0.15/trial-00000.json",
+      "source_sha256": "31d1072f4393af52c508db7aad4088fc700f3d741433403d5c4eebfcf1bb155c",
+      "artifact": "fixtures/e1_n64_0.15-00000.json.gz",
+      "sha256": "f21ed8e784dc518987bfa5b787c907c0c68f8e8bdde32ed0808ac1b2967523c7",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e1_n256_0.3/trial-00000.json",
+      "source_sha256": "834a58ee24910d0c2cb042d38b880c7d7ab15d211fbfa9f9411dc3d70e9ae90a",
+      "artifact": "fixtures/e1_n256_0.3-00000.json.gz",
+      "sha256": "443bf1d3fdfef3d9acb5a48158a3596b54c1188f77fa933f9e95fe99c5f57c78",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e1_n256_0.5/trial-00000.json",
+      "source_sha256": "2a4a2ff2f52202c21ba447b013799a8e7e0d6efdb4b75f2d5c0f66b85dcd8bc8",
+      "artifact": "fixtures/e1_n256_0.5-00000.json.gz",
+      "sha256": "9ad021d0af92907d672e83535db4be4a6079fb8df0d7f99c3e71666e35d3efa0",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e1_n256_low/trial-00000.json",
+      "source_sha256": "cf432048c0377c7c04d9058ececd9475832dede452e56e48e7af400a6accc819",
+      "artifact": "fixtures/e1_n256_low-00000.json.gz",
+      "sha256": "2790e5aa2c2ea474be86a187db25f1be5383315c6191e16bcfd35c8a7787065f",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e1_n1024_0.3/trial-00000.json",
+      "source_sha256": "af41dd502036cef52921a5f800905f1f40f3a3eb0f7bb4dcd2a7f96a23492603",
+      "artifact": "fixtures/e1_n1024_0.3-00000.json.gz",
+      "sha256": "eae4dfbe5bf650978bc064e668dbda0bf08e62c9d0ab13a7c06ddb8240bafc50",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e1_n1024_0.5/trial-00000.json",
+      "source_sha256": "a69ad5605efece5b7a6875af84ad29af7fa9b7e138dd86c65b85bf311d750b39",
+      "artifact": "fixtures/e1_n1024_0.5-00000.json.gz",
+      "sha256": "59ccb0572c8e3decefd2b4d65713e8562b782ec0a233cab544bacf33e6d94e0e",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_n64_0.2_drift/trial-00000.json",
+      "source_sha256": "29c276c51e59eeb49a5d0d420b8a4346a336a85a329260e629b41d7a51ee2dc8",
+      "artifact": "fixtures/e3_n64_0.2_drift-00000.json.gz",
+      "sha256": "453dc0b72dd57bcee6d2d080b992ac8cb4708cbb2cc22ceea1a1e314cadf1573",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_n64_0.2_partial_fix/trial-00000.json",
+      "source_sha256": "255a4758e5cc918c98f64daa9ba20f03e328c6ae013d5e47dd77d7359620aa83",
+      "artifact": "fixtures/e3_n64_0.2_partial_fix-00000.json.gz",
+      "sha256": "ba4547d951d67b1358ea409ae6daf7dda4a195bd88f58661bb9a9e957c95c179",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_n64_0.2_two_step/trial-00000.json",
+      "source_sha256": "ac7b019a98e9ee10376c366e576d4242f03efcfae7f42c6f103f0f6afeedd7d5",
+      "artifact": "fixtures/e3_n64_0.2_two_step-00000.json.gz",
+      "sha256": "40ee4413b7f8475804df82336e837fe28738650f23ef935bb50d95be3e8cc8b0",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_n64_0.2_jitter/trial-00000.json",
+      "source_sha256": "57cbaaa1e0fbc57ecfc4fc15dfafd15d654bd31597e6caf51942dfb06f08f330",
+      "artifact": "fixtures/e3_n64_0.2_jitter-00000.json.gz",
+      "sha256": "3b4f0af1b76d9424b4a0036e6d835ff0b4d341c22dc324d947eba5d8df3f7766",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_n64_0.2_bursty/trial-00000.json",
+      "source_sha256": "45f061c991ab1b96f169040c795eb434fb9c050e457a42c74f62cc243bfb7e16",
+      "artifact": "fixtures/e3_n64_0.2_bursty-00000.json.gz",
+      "sha256": "0a8d61d9b5e26b12b901ba9cc68f968989d5cefc630b9bd25a8315e629ab470c",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_n64_0.2_broken/trial-00000.json",
+      "source_sha256": "b94a664121925cb3a426c2d01da404af7b3a489edcc8b3b7744dc01b4aa28070",
+      "artifact": "fixtures/e3_n64_0.2_broken-00000.json.gz",
+      "sha256": "9e1ba2d2807585305cb4e8323684310ae4eb5b42839b826dd442f5c6bc990426",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_n64_0.2_ramp/trial-00000.json",
+      "source_sha256": "6c2a6b9710ec66711cb51934981c537862dc2c978f21b5b0a74bbdd44398d45b",
+      "artifact": "fixtures/e3_n64_0.2_ramp-00000.json.gz",
+      "sha256": "60c1b76e6f780648388d32caa8c664a7172357b985a71e0f0b38fc851e95de24",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_n64_0.5_drift/trial-00000.json",
+      "source_sha256": "6e5fe22345614460b094276b0eae48ab5f0319d943e5a8d1abe2a9d9368a13d1",
+      "artifact": "fixtures/e3_n64_0.5_drift-00000.json.gz",
+      "sha256": "4c38833437c6b196acb6ce8ce3bbd4bac7e4e76f2458ac4bf97e18665b59daa4",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_n64_0.5_partial_fix/trial-00000.json",
+      "source_sha256": "4a7c4ac11dba995176df9d165be6b0e1d9f5b024c640ebc0594c29d9fafa905f",
+      "artifact": "fixtures/e3_n64_0.5_partial_fix-00000.json.gz",
+      "sha256": "596a32439a574dd101e4c8eed41a4b8260c0d18bf6959ce9c1bc16950594f161",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_n64_0.5_two_step/trial-00000.json",
+      "source_sha256": "09eba441a89caf28b17c76efabebe9d3f14a69639ab3301d52bd5cd5daa4b91d",
+      "artifact": "fixtures/e3_n64_0.5_two_step-00000.json.gz",
+      "sha256": "11e286171e791396aba67f14f1a113d2a1b5d5a82b487b6a7905bd03f1d0214c",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_n64_0.5_jitter/trial-00000.json",
+      "source_sha256": "195bb2f7ecd771bd6615093b38901ac63bdd4c5dd5394f590e99db46df4a44d0",
+      "artifact": "fixtures/e3_n64_0.5_jitter-00000.json.gz",
+      "sha256": "b17a39d7624fd3414fee421ec258716df5ca6dbc67555af76db32e4985fa2ec7",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_n64_0.5_bursty/trial-00000.json",
+      "source_sha256": "2a39dd8799afbda8f8bdfbf4f0d2a62032fe137e3dfc56d51d0a51f624b9c815",
+      "artifact": "fixtures/e3_n64_0.5_bursty-00000.json.gz",
+      "sha256": "0efa0de036e286c6d27be0763be00977d703ef456866a2d13bbbd3b25aec4d06",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_n64_0.5_broken/trial-00000.json",
+      "source_sha256": "3dfda3ff3e011bb53489147db4cc6ca526092d4af06df5906fbab80d634fc278",
+      "artifact": "fixtures/e3_n64_0.5_broken-00000.json.gz",
+      "sha256": "4a8cfce5568fce40bf5a33f44443dd432705c583588b84f918b47e5028502815",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_n64_0.5_ramp/trial-00000.json",
+      "source_sha256": "52a3a178e3f5d87737ca14a6016c7c20cb5ad7b0343616f5f8b6cf6d9d264a68",
+      "artifact": "fixtures/e3_n64_0.5_ramp-00000.json.gz",
+      "sha256": "0ac647470358c4d974e0b85c68d267a21c07e5760f4a777a721f32576bfe37bf",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_n256_0.3_drift/trial-00000.json",
+      "source_sha256": "881dc3c80cd004bf059ded958555fb0ad2d69a207c485f0f401b558883da2017",
+      "artifact": "fixtures/e3_n256_0.3_drift-00000.json.gz",
+      "sha256": "58205975ff49ef471c967f48a267a6c5567e3472fae817ffa516a9cacc1bbc43",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_n256_0.3_partial_fix/trial-00000.json",
+      "source_sha256": "349b2645da328af922d4a80345631cbeeb04e6c24314c5e44545ddd7d717f553",
+      "artifact": "fixtures/e3_n256_0.3_partial_fix-00000.json.gz",
+      "sha256": "86ee5433504b4da56a8cd866c51520fa535b21fd1e71ca4c735e2a9631af54bf",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_n256_0.3_two_step/trial-00000.json",
+      "source_sha256": "fd6e4ed1b63893de350ccb9a1250e3e37484fe31c7ff8125b368e439c613156f",
+      "artifact": "fixtures/e3_n256_0.3_two_step-00000.json.gz",
+      "sha256": "628b8c342d6ec01996e87c56449d5b3c4cef6886523effee72859b8be9da4b7f",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_n256_0.3_jitter/trial-00000.json",
+      "source_sha256": "702fc62793d7b00d07bc16de7df924a188e82870184fbf8097358a91f5dc4c06",
+      "artifact": "fixtures/e3_n256_0.3_jitter-00000.json.gz",
+      "sha256": "c41966fc5e1fa9623052ff9f34f79db30355684ff5b9ea59723f51eab9f3cd9f",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_n256_0.3_bursty/trial-00000.json",
+      "source_sha256": "365f31ce4d958ed0f935870d27552ae69c94c22e55886f928ab426a14a8fd866",
+      "artifact": "fixtures/e3_n256_0.3_bursty-00000.json.gz",
+      "sha256": "523251f0b1ef4e4e0a4fa83562241d65e5da15e72022613ba2259eca4f9f6a88",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_n256_0.3_broken/trial-00000.json",
+      "source_sha256": "f5a8fc5c96e1ed8a6ca3a1dc2572cb9bacea894983232ecb67256fea2f8953a3",
+      "artifact": "fixtures/e3_n256_0.3_broken-00000.json.gz",
+      "sha256": "a979d05a237180867297acd5438b307a0860a1f6b379773a047733b71c6c727a",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_n256_0.3_ramp/trial-00000.json",
+      "source_sha256": "0c40c90dd655941fd17e5b60a64ecb06eb2882a21a60fe95f228fd0ad9944e37",
+      "artifact": "fixtures/e3_n256_0.3_ramp-00000.json.gz",
+      "sha256": "58b3d097f0d03f658ca8f258b5e44603a2cf36ffb78828a19accbb6c8a91f865",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_dose_jitter_0.1/trial-00000.json",
+      "source_sha256": "b6d136a7aa64d2495ef64ddd8ad31011b36a53460f5358240c1887e6ed340853",
+      "artifact": "fixtures/e3_dose_jitter_0.1-00000.json.gz",
+      "sha256": "ca110a0fe60f6bcbd80e25487a8b23a129fcfcc526bce07abbad084934086355",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_dose_bursty_0.25/trial-00000.json",
+      "source_sha256": "ba7352ed11acee39a2271fe62f1d02809e0b29689060de590407476b9d64f25f",
+      "artifact": "fixtures/e3_dose_bursty_0.25-00000.json.gz",
+      "sha256": "394956383a08fa7bf2ee7f28ad14c75fbd511e830ab95806656906add751f8d4",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_dose_bursty_0.75/trial-00000.json",
+      "source_sha256": "539ae1f39647fdb61c27f5efaad04e305ea062c0c83ee3f0a271823d5af71901",
+      "artifact": "fixtures/e3_dose_bursty_0.75-00000.json.gz",
+      "sha256": "e3bb22b5e813e142937a2b1bdb4125d8786813b355c4fc35e523f13ecdeaa72a",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_dose_drift_0.25/trial-00000.json",
+      "source_sha256": "a3150fac12d076007bea84528f3dc4d0059c425609bb4e013b27ae4f2eef14c4",
+      "artifact": "fixtures/e3_dose_drift_0.25-00000.json.gz",
+      "sha256": "dbbefd7766c2c46d2e36216a1d4184a50e009099475e351f2acf4ace33a47848",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_dose_drift_1.0/trial-00000.json",
+      "source_sha256": "36225dd2c88093eb298f381792a4241a6c47e7185798d6d80ee15ff7fcd77406",
+      "artifact": "fixtures/e3_dose_drift_1.0-00000.json.gz",
+      "sha256": "a8abf6498b065278a43e1755b104ffaa97ed9e9542bb94bd76daaf53efddd974",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_dose_ramp_2/trial-00000.json",
+      "source_sha256": "f44251ce90069596c251664996bc8aa6336e85dbd32fe89d88dca1f0116e3f14",
+      "artifact": "fixtures/e3_dose_ramp_2-00000.json.gz",
+      "sha256": "9041d910dc6d17dacb50cd14c34c8443f8bf6c05b58e044c4c89dfe0c522ae9c",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_dose_ramp_8/trial-00000.json",
+      "source_sha256": "dd6994fb0513d4ca64a15a1b2deac2e9c39d872795aaeb2a2b19161bfda9085c",
+      "artifact": "fixtures/e3_dose_ramp_8-00000.json.gz",
+      "sha256": "9cfdb2ef02ebbc8434bd4cb6c411db542c241d572a75015659c30256c2049255",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_n64_0.3_ramp_range8/trial-00000.json",
+      "source_sha256": "b2e1ded5d2e9d3d4b03aac2037590f21937d9a6480a55ee22b51ba6cd0089c9e",
+      "artifact": "fixtures/e3_n64_0.3_ramp_range8-00000.json.gz",
+      "sha256": "88f9e92da40345b7c91c4943488966196c4e2b338f34ce5ce05131371ca83b99",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e3_n64_0.3_two_step_range8/trial-00000.json",
+      "source_sha256": "d53ffb67fa32c5a80b5e0602d4925db5b8ba809701c0a300480dc313dbe8b1d3",
+      "artifact": "fixtures/e3_n64_0.3_two_step_range8-00000.json.gz",
+      "sha256": "d5490b994c9cf947ef2237f551bccbf90058a8a6feb245d6c25cefc18d8daf2b",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e6_n64_0.3_matched_s1/trial-00000.json",
+      "source_sha256": "0ed955119b0a142ba65711b6f3c6bcd7bf498d5c8d3c77eedc4730c6e2693e64",
+      "artifact": "fixtures/e6_n64_0.3_matched_s1-00000.json.gz",
+      "sha256": "7c81cce184cfa1e6bf47d565f38d36bb1d904e3311267278dfef9c57382085ac",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e6_n64_0.3_matched_s4/trial-00000.json",
+      "source_sha256": "400f1b2cabc81ade3d1ac1ce8a569aafadaaf1f4d72dae7d0a5e5276159d34b1",
+      "artifact": "fixtures/e6_n64_0.3_matched_s4-00000.json.gz",
+      "sha256": "3e4368ec37931cc05262a87941a1cf268cf6577a1e2f8ecd673df68c6df04129",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e6_n64_0.3_matched_s20/trial-00000.json",
+      "source_sha256": "bb11bbfd16535b690cac9d02eeb1f96e94cb00bc944239a63cffea5b32312219",
+      "artifact": "fixtures/e6_n64_0.3_matched_s20-00000.json.gz",
+      "sha256": "cf924fa9544cade46660063336758f76cf5b7c82195da78f2c68e1886b38d71d",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e6_n64_0.3_expects_worse/trial-00000.json",
+      "source_sha256": "0dec5dff6f1d56ef4280b66f2ab44bb3a438a66c08d08be1ee48a96316059c83",
+      "artifact": "fixtures/e6_n64_0.3_expects_worse-00000.json.gz",
+      "sha256": "6dede50b6109842796c7f7495945a46ee4382ede892a308665fa042a21a3f61e",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e6_n64_0.3_expects_somewhat_worse/trial-00000.json",
+      "source_sha256": "e3cb4e7bbbb77b914d04ca60dc50ba9b05961fd4e9e780b445f0c3c7d8509579",
+      "artifact": "fixtures/e6_n64_0.3_expects_somewhat_worse-00000.json.gz",
+      "sha256": "c11ab14bda5a18b0a086c9bee0784e120137bf703023ef0a8e9dae50dc01e959",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e6_n64_0.3_boost10/trial-00000.json",
+      "source_sha256": "2657297c622a2dd4762e365325a7354f483de0422dbf49b8151c80863625ad0c",
+      "artifact": "fixtures/e6_n64_0.3_boost10-00000.json.gz",
+      "sha256": "5925a486ddb4d06d0ec1f76ad57293d708a179b9262109b23de3d90b46074e10",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e2_n64_prior/trial-00000.json",
+      "source_sha256": "977da4f80889008706730478ff5bb839f2b0432334af9e50e0b4e7233c40b13b",
+      "artifact": "fixtures/e2_n64_prior-00000.json.gz",
+      "sha256": "60447c4fcbae6c15b5990b63fde04e72ace10bcb13d018910c5d17abf44bdea9",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e1_n64_0.3/trial-00128.json",
+      "source_sha256": "e7bb9780da0c08fd626b45494c6a1642ce47909e850a93a8b4fd1f2f19b605ae",
+      "artifact": "fixtures/e1_n64_0.3-00128.json.gz",
+      "sha256": "8173be49500c85644a6d76c3511f70a3005b6e9d39cb0dd096ff0f4253c6c210",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e1_n64_0.3/trial-00224.json",
+      "source_sha256": "7f38b185c5591a7c505a3fdb9b210e40c1b7b65b7ff6c27a08c48dd520326971",
+      "artifact": "fixtures/e1_n64_0.3-00224.json.gz",
+      "sha256": "ad24650e0bd851b780bf9783379255f871a10c208b0fbf372b4653d51f90159e",
+      "compression": "gzip"
+    },
+    {
+      "source": ".research-archive/evidence/runs/champion-evidence-full-v1/e2_n64_prior/trial-00063.json",
+      "source_sha256": "41db85d4c4e7308fcf4745c44915fe3cac8c21bf0905f1431e71c66d1c339883",
+      "artifact": "fixtures/e2_n64_prior-00063.json.gz",
+      "sha256": "ca7571f2cf10f79654c4bb761e6b59e8a6df032c36531badf0fe71cd90f59746",
+      "compression": "gzip"
+    },
+    {
+      "artifact": "results/full/analysis-inputs.json.gz",
+      "sha256": "6e5162015f88582c0eb97ec16756d59863b1ba4ae25961172ba6d3541d5bf312",
+      "transformation": "Select four RIPr final diagnostic fields and three OG recorded-horizon fields for each frozen job; retain cell configurations. No new simulations.",
+      "trials": 27287,
+      "source_RIPr_tree_digest": "bb5e3ab256333619b54dff2b9ac7667a30ce984ccacb0ccf1223924cec26ab55",
+      "source_RIPr_digest_definition": "SHA256 over UTF-8 cell/trial-NNNNN.json + NUL + file SHA256 + newline, in design order.",
+      "source_OG_sha256": {
+        ".research-archive/evidence/runs/full/e1_n64_0.2.csv": "0a41c12a768830d67699ca8c5208a9d5daef8543ef7426bf23e9cbd917d90e18",
+        ".research-archive/evidence/runs/full/e1_n64_0.3.csv": "cef28082bb292a8a8513273f6e2f96a92bcb7ad901a0a0b289574194ed3e8c47",
+        ".research-archive/evidence/runs/full/e1_n64_0.5.csv": "112ab2ec4ee3c374879acbb5373ccb5ed911e44331871571abd6edb927462d73",
+        ".research-archive/evidence/runs/full/e1_n256_0.2.csv": "c85da3f6c3b8795775bedf58a7eb7eb566b99ffdd666fd50e5d15060ece4574c",
+        ".research-archive/evidence/runs/full/e3_n64_0.3_drift.csv": "93bf45de727e2106df0a6ad1b91628e690cf16a008e3e47753e002440f5b7153",
+        ".research-archive/evidence/runs/full/e3_n64_0.3_partial_fix.csv": "d3310a86a1bdc553403207610b303bb09189eb8f7e712693da8385738c2ccea3",
+        ".research-archive/evidence/runs/full/e3_n64_0.3_two_step.csv": "5835c10fd86d2af053927b9f2cd68b4f7bd3902c2e5f3128d776212492880d4e",
+        ".research-archive/evidence/runs/full/e3_n64_0.3_jitter.csv": "314e31be2fd47d6f264b420dade1cffb268182cd7a99e060e8edc589b76f9eb6",
+        ".research-archive/evidence/runs/full/e3_n64_0.3_bursty.csv": "85f9798c2979d0ca5c0f7dacb8f795bf4dd635cb028412a653b33d41840853f4",
+        ".research-archive/evidence/runs/full/e3_n64_0.3_broken.csv": "3069f4e14a3c9265f6886d142b97cb1e12e46bf470c7be7f1c5e17d786689df5",
+        ".research-archive/evidence/runs/full/e3_n64_0.3_ramp.csv": "1e4ea2dd249f63af82307a354fbcc1609069874e5bf539efe6502974a659a30a",
+        ".research-archive/evidence/runs/full/e3_n64_0.3_jitter_strong.csv": "f01c278ee104faf867a53e2cc9ae2fd1f41ecf13df17d92e5ee05f85c6a33afa",
+        ".research-archive/evidence/runs/full/e1_n16_0.2.csv": "47d300c5d02c02b6b369e11dd4a47cab2ed5f8bdd54a64adb9664423d2189077",
+        ".research-archive/evidence/runs/full/e1_n16_0.3.csv": "eb0b4132142f80d52aeab6a67ddc2283a47b8bc11e884210f56f1cf0b4e54cdb",
+        ".research-archive/evidence/runs/full/e1_n16_0.5.csv": "8005554a299be8bf57c6012627f33d8f4395339ad64a457881514fb7dfa75ebc",
+        ".research-archive/evidence/runs/full/e1_n16_low.csv": "7f44200e8645626d86a529263c887650ef24355de213bd165d35cd80ef46b44b",
+        ".research-archive/evidence/runs/full/e1_n64_low.csv": "dcb4b96dc16cef4ae928e1e7f2c2bf717b5fc76a999bdb9790dd14b79e8897d0",
+        ".research-archive/evidence/runs/full/e1_n64_0.15.csv": "06a08abbaaad5a4b2e17243bf121ca31412016a3cdf43e06afaedc50212076f2",
+        ".research-archive/evidence/runs/full/e1_n256_0.3.csv": "ba041a60dbd317295c37d9165a9a158172be985abf3be025b91d0bfee9e4a017",
+        ".research-archive/evidence/runs/full/e1_n256_0.5.csv": "b030749f3a2e68feca85b9568db6253e86d8eac48352982ef550d0a2f24cb018",
+        ".research-archive/evidence/runs/full/e1_n256_low.csv": "62a0922fd2e2cadc68b6e7acec95b8b3202672aec21d2589776fee778306bf1d",
+        ".research-archive/evidence/runs/full/e1_n1024_0.3.csv": "2b405f205507456e7427192cf068c8b6883f2aea5ff9505635e275ded082bdc3",
+        ".research-archive/evidence/runs/full/e1_n1024_0.5.csv": "82c00135fb13706cd0ca4057a483c0aab1ab71d1de837ef4bd1d191308bcec7d",
+        ".research-archive/evidence/runs/full/e3_n64_0.2_drift.csv": "d561360794619ab62801950c4d69732101482d843c7ba2f8a8482f5491c66ab6",
+        ".research-archive/evidence/runs/full/e3_n64_0.2_partial_fix.csv": "5d1547ef08f3e633164a2ffd452a00e4513b9491a10ba260d5920c8ecdb31180",
+        ".research-archive/evidence/runs/full/e3_n64_0.2_two_step.csv": "02cfa196e539adbef5a85a82b9e400dbeea2f36e9c3d921eafc88db01f0c5103",
+        ".research-archive/evidence/runs/full/e3_n64_0.2_jitter.csv": "1756cdc0ced6390b2254a06dbf584157d604da8dd2e8d3e9eb86e0603018a308",
+        ".research-archive/evidence/runs/full/e3_n64_0.2_bursty.csv": "815e29897f12069ca8b70052b0346afb0f9fc3503ef16efdad0518ff1597a15a",
+        ".research-archive/evidence/runs/full/e3_n64_0.2_broken.csv": "2a061bc768aad1cc61fadfaddad00ff0735b24391702b1f9f6db18670e9d3f92",
+        ".research-archive/evidence/runs/full/e3_n64_0.2_ramp.csv": "af4a9dc6d8c73fbb737ec65ee72f83e2e8a96a2a6e50b7e3ea71afe020910309",
+        ".research-archive/evidence/runs/full/e3_n64_0.5_drift.csv": "df04f5f9f6e16ed9acdcc271c900a75200c2fac3f97d6dfface2ab2bb4dfe122",
+        ".research-archive/evidence/runs/full/e3_n64_0.5_partial_fix.csv": "d69397cb46096c19a89ae9f570be7956050183e42fbc7d74992b29e5947c15f3",
+        ".research-archive/evidence/runs/full/e3_n64_0.5_two_step.csv": "fc4ed30579098683019d59c8d9969ac4c5a5f667373f23b2d1f3e8b6a1c54170",
+        ".research-archive/evidence/runs/full/e3_n64_0.5_jitter.csv": "6cba8da723ba6d6576d117e9a3529b73418d1d6ca594289c73c58342f913b01c",
+        ".research-archive/evidence/runs/full/e3_n64_0.5_bursty.csv": "ab21bd87f982786363dc09f5490d65e947ae4aaae51b91a0bc1a9c72271be10b",
+        ".research-archive/evidence/runs/full/e3_n64_0.5_broken.csv": "d587cb4d70d8d089ce8a61501ac6020006de033799e4d3151ee2234ede6ff169",
+        ".research-archive/evidence/runs/full/e3_n64_0.5_ramp.csv": "28e20f540702681bc29bfdf75f06d0e66b7e398352d4a6d1456006b8416aa6c8",
+        ".research-archive/evidence/runs/full/e3_n256_0.3_drift.csv": "6ce21466efe4f414a77d3116be56c2fd7ebdc38ec6e747469ece93cfedb70c0f",
+        ".research-archive/evidence/runs/full/e3_n256_0.3_partial_fix.csv": "c2c6327dac2f1db7db62096771c00cea68fdf1f9eb715bca14b47a1060d7c6d3",
+        ".research-archive/evidence/runs/full/e3_n256_0.3_two_step.csv": "01c82b23dda09688bd055b1bc94da65175cc6766273c01fe29fe67d5de2b4b32",
+        ".research-archive/evidence/runs/full/e3_n256_0.3_jitter.csv": "c0ed4501027ab13dd77280083f6fc08caa3cb08c30d418e639bd50ba6932f3f6",
+        ".research-archive/evidence/runs/full/e3_n256_0.3_bursty.csv": "17af53ab8ff27bf2aeb0eb947b01b1a4401dc3efce04cd8df318d175d8d3ae6d",
+        ".research-archive/evidence/runs/full/e3_n256_0.3_broken.csv": "e1c30d26681529618fcabd94e323eee8d5673080e0408f9d020b4ef953b460c8",
+        ".research-archive/evidence/runs/full/e3_n256_0.3_ramp.csv": "d6b15893f9b5cddcc37f5d61e8054da2a17025351ca4126c2ab1dbf34dfeb39a",
+        ".research-archive/evidence/runs/full/e3_dose_jitter_0.1.csv": "b0bd04601856ffa4f71a7e4a3b9e1e442cc3dbfe172673d47a2f6795ae81ba1b",
+        ".research-archive/evidence/runs/full/e3_dose_bursty_0.25.csv": "6e8c23c4f4a9428d54bd7e847f046e4c9c2253b8a5087eadd204fb9ac7a4bae7",
+        ".research-archive/evidence/runs/full/e3_dose_bursty_0.75.csv": "6387abc8dfbe0d81bfd7509596cee0bc47340dd01dde34742b1675f7b9bc0215",
+        ".research-archive/evidence/runs/full/e3_dose_drift_0.25.csv": "0e1dbbd68fc12d03e4c16a1991177d017805f321a04a285a6ad79eaafebd7989",
+        ".research-archive/evidence/runs/full/e3_dose_drift_1.0.csv": "9e93da65228174f530dfcfd41e7ae5f95e3e660bca8dd8e147c7e73fb4cb004c",
+        ".research-archive/evidence/runs/full/e3_dose_ramp_2.csv": "65048cac242139a6a48df2662d90bb76e4acba74347cc0e396d2cfad0f63a406",
+        ".research-archive/evidence/runs/full/e3_dose_ramp_8.csv": "ceaae17333661b1494a53c40114a417ccdc32ed36abefd9346f94cf87e00a8d5",
+        ".research-archive/evidence/runs/full/e3_n64_0.3_ramp_range8.csv": "4e893922915d2a9fe364c98d795a79852cc241bf9bc4fa1b99aec6b662f10ea0",
+        ".research-archive/evidence/runs/full/e3_n64_0.3_two_step_range8.csv": "5f4501824b8a2d165cddf1ee8a7aa285c7e97fcece3c731ad3b6fc97d12909c4",
+        ".research-archive/evidence/runs/full/e6_n64_0.3_matched_s1.csv": "6bf4f614a08192ffcf3595062f2eb504b1555f01b3d7299d15a1c2e8b40cc1dd",
+        ".research-archive/evidence/runs/full/e6_n64_0.3_matched_s4.csv": "8a3bc1f3c04d7a6099c79297d9c1f1c0c04a2994fe41a06e82a2fbb9c32a3230",
+        ".research-archive/evidence/runs/full/e6_n64_0.3_matched_s20.csv": "9b2902214098ab57a9381ad7b65f0d5097866b25642ad85327e176208d0a87f8",
+        ".research-archive/evidence/runs/full/e6_n64_0.3_expects_worse.csv": "671e1b45ab4ab20e1e6be5788dc9e61a7bcf02e334c99d434be9be9c0d224b7e",
+        ".research-archive/evidence/runs/full/e6_n64_0.3_expects_somewhat_worse.csv": "620230845ab579b81def167b3e13e372383d1e58cdfeec5dc9754bd9fd2ea90a",
+        ".research-archive/evidence/runs/full/e6_n64_0.3_boost10.csv": "f3b353517499907d1e1729880557ae12859d8a80a103b3b71cff0376b04e554d",
+        ".research-archive/evidence/runs/full/e2_n64_prior.csv": "54557cdf82c4a2cc86cb3c39134143a9809c8775dfcdced26d51fa8a5b82caa8"
+      },
+      "source_configs_sha256": "834e722a78048c2dc68b1220a25b837fe40f76a86adad1a45fc212255a76957a"
+    }
+  ]
+}

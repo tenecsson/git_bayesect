@@ -1,0 +1,94 @@
+{
+  "status": "passed",
+  "definition": "Difference between first stops at alpha=1e-6 and 1e-5, divided by log(10). Common subset is uncensored for the three listed methods at both endpoints.",
+  "source_sha256": "57d6de19bd9e37641d4e11a95f830c698bf2f17acca8788ab84a036c068bc3ef",
+  "cells": [
+    {
+      "cell": "e1_n64_0.2",
+      "p_old": 0.1,
+      "p_new": 0.2,
+      "oracle_rate": 0.009988333284034506,
+      "oracle_samples_per_nat": 100.11680343090015,
+      "oracle_pair_lambda": 0.4764473087835974,
+      "common_uncensored_trials": 503,
+      "methods": {
+        "champion_singleton": {
+          "n": 504,
+          "uncensored_n": 504,
+          "samples_per_nat_uncensored": 104.17380376034072,
+          "samples_per_nat_common_uncensored": 104.31960673359164
+        },
+        "champion_posterior": {
+          "n": 504,
+          "uncensored_n": 504,
+          "samples_per_nat_uncensored": 100.40043960110592,
+          "samples_per_nat_common_uncensored": 100.35051780057125
+        },
+        "saved_bayes": {
+          "n": 504,
+          "uncensored_n": 503,
+          "samples_per_nat_uncensored": 95.56723464004638,
+          "samples_per_nat_common_uncensored": 95.56723464004638
+        }
+      }
+    },
+    {
+      "cell": "e1_n64_0.3",
+      "p_old": 0.1,
+      "p_new": 0.3,
+      "oracle_rate": 0.032572813313611254,
+      "oracle_samples_per_nat": 30.700449186626702,
+      "oracle_pair_lambda": 0.466345495171098,
+      "common_uncensored_trials": 503,
+      "methods": {
+        "champion_singleton": {
+          "n": 504,
+          "uncensored_n": 504,
+          "samples_per_nat_uncensored": 33.082209819900086,
+          "samples_per_nat_common_uncensored": 33.11517009725113
+        },
+        "champion_posterior": {
+          "n": 504,
+          "uncensored_n": 504,
+          "samples_per_nat_uncensored": 32.21792933309659,
+          "samples_per_nat_common_uncensored": 32.25953226113558
+        },
+        "saved_bayes": {
+          "n": 504,
+          "uncensored_n": 503,
+          "samples_per_nat_uncensored": 29.45604482030087,
+          "samples_per_nat_common_uncensored": 29.45604482030087
+        }
+      }
+    },
+    {
+      "cell": "e1_n64_0.5",
+      "p_old": 0.1,
+      "p_new": 0.5,
+      "oracle_rate": 0.10230118910651201,
+      "oracle_samples_per_nat": 9.77505744296715,
+      "oracle_pair_lambda": 0.4623129719878637,
+      "common_uncensored_trials": 504,
+      "methods": {
+        "champion_singleton": {
+          "n": 504,
+          "uncensored_n": 504,
+          "samples_per_nat_uncensored": 10.361887192235324,
+          "samples_per_nat_common_uncensored": 10.361887192235324
+        },
+        "champion_posterior": {
+          "n": 504,
+          "uncensored_n": 504,
+          "samples_per_nat_uncensored": 9.848316733476716,
+          "samples_per_nat_common_uncensored": 9.848316733476716
+        },
+        "saved_bayes": {
+          "n": 504,
+          "uncensored_n": 504,
+          "samples_per_nat_uncensored": 9.567404032880564,
+          "samples_per_nat_common_uncensored": 9.567404032880564
+        }
+      }
+    }
+  ]
+}

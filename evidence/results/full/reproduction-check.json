@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "recomputed_cells": 60,
+  "recomputed_trials": 27287,
+  "published_values_verified": 270688,
+  "identical_reconstructed_endpoint_rows": 459272,
+  "figures": {
+    "fig1_calibration.png": "byte-identical to published PNG",
+    "fig3_misspecification.png": "byte-identical to published PNG"
+  },
+  "fresh_RIPr_smoke": {
+    "cell": "e1_n64_0.3",
+    "trial": 0,
+    "checks": [
+      "observations",
+      "all stopping endpoints",
+      "final diagnostics",
+      "posterior settling",
+      "resume",
+      "partial report and figures"
+    ]
+  },
+  "full_report_rejects_partial_scope": true,
+  "OG_extension_smoke": {
+    "cells": [
+      "e1_n64_0.2",
+      "e1_n64_0.3",
+      "e1_n64_0.5"
+    ],
+    "trial": 0,
+    "first_stop_and_answer_match_retained_controls": true
+  },
+  "full_simulation_rerun": false,
+  "full_OG_rerun": false,
+  "mypy": "Success: no issues found in 13 source files",
+  "source_sha256": {
+    "scripts/analysis.py": "84d813da31b90ce1715f8dec0a1ed8b598c1a08bfb9d54681b426528d89676a8",
+    "scripts/figures.py": "01171d74179bb71196c1faf23a80ae523c0e108a66eeca3b405828dcc0236360",
+    "scripts/replay.py": "ca8bf23d0f793eadb4690edbb27868efdeb7bbf6dbf219b1501218c8726b4165",
+    "scripts/report.py": "b87dbb931382586ec300e14159be34968462fbe8d0dd7723d16fb860f55004c2",
+    "scripts/run_evidence.py": "552ff5fc8320a24b37c14f01c1654d7b1311d83f8dd2b68c820a86c53856ffb7",
+    "scripts/simulation.py": "3bf0852270d00ea9ea87f2d9e5f660bcd28eac80da3ab0912b2d2686b22efa97",
+    "scripts/tables.py": "d152106205c54eeff0c39dd5f86ff80ce637e37b65344edc5dd1096982aeb565",
+    "scripts/timing.py": "4057f01aa0ebe22304923d07792ee37e5fcf691c77c94f6772ce056e7aafbb90",
+    "scripts/uniform_extension.py": "e600a255f6dea56a3a6c2fb838e409537abe077903e09b004bb9b43e830dee72"
+  },
+  "input_sha256": {
+    "design.json.gz": "32fbb32edbfde13295b2f22e7043ad7a4cde477819570cd1d776b7a796e6f5dd",
+    "analysis-inputs.json.gz": "6e5162015f88582c0eb97ec16756d59863b1ba4ae25961172ba6d3541d5bf312",
+    "trial_endpoints.csv.gz": "57d6de19bd9e37641d4e11a95f830c698bf2f17acca8788ab84a036c068bc3ef"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "methods": [
+    "champion_check",
+    "champion_posterior",
+    "champion_range",
+    "champion_singleton",
+    "saved_bayes"
+  ],
+  "unchanged_retained_endpoint_rows": 459272,
+  "unchanged_retained_summary_values": true,
+  "local_document_links": 21,
+  "original_section_headings_preserved": true,
+  "text_and_compressed_files_scanned": 102
+}

@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "scope": "All published endpoint status counts and capped means",
+  "rows": 459272,
+  "aggregates": 5025,
+  "paired_costs": [
+    {
+      "cell": "e1_n64_0.2",
+      "default_outcome": "correct",
+      "n": 455,
+      "default_mean": 1083.2175824175824,
+      "safe_mean": 1315.5978021978021,
+      "ratio_of_means": 1.2145277399039085
+    },
+    {
+      "cell": "e1_n64_0.2",
+      "default_outcome": "wrong",
+      "n": 48,
+      "default_mean": 517.6666666666666,
+      "safe_mean": 1447.2708333333333,
+      "ratio_of_means": 2.795758209916291
+    },
+    {
+      "cell": "e1_n64_0.3",
+      "default_outcome": "correct",
+      "n": 476,
+      "default_mean": 337.41386554621846,
+      "safe_mean": 416.7731092436975,
+      "ratio_of_means": 1.2351985256118898
+    },
+    {
+      "cell": "e1_n64_0.3",
+      "default_outcome": "wrong",
+      "n": 28,
+      "default_mean": 320.42857142857144,
+      "safe_mean": 465.17857142857144,
+      "ratio_of_means": 1.4517387427552386
+    },
+    {
+      "cell": "e1_n64_0.5",
+      "default_outcome": "correct",
+      "n": 483,
+      "default_mean": 105.49068322981367,
+      "safe_mean": 130.09730848861284,
+      "ratio_of_means": 1.2332587533364736
+    },
+    {
+      "cell": "e1_n64_0.5",
+      "default_outcome": "wrong",
+      "n": 21,
+      "default_mean": 53.857142857142854,
+      "safe_mean": 127.0,
+      "ratio_of_means": 2.3580901856763927
+    }
+  ]
+}

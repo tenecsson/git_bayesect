@@ -1,0 +1,423 @@
+Randomized safe stopping and OG git bayesect
+60 cells; 27,287 trials; alpha = 0.05
+Mean costs charge the full budget to censored trials. Full threshold grids are in summary.json.
+
+e1_n1024_0.3 (n=1023)
+  champion_singleton: mean=561.9599; correct=1005, wrong=16, empty=2, check_abstain=0, censored=0
+  champion_range: mean=558.8612; correct=1005, wrong=17, empty=1, check_abstain=0, censored=0
+  champion_check: mean=561.9599; correct=1005, wrong=16, empty=2, check_abstain=0, censored=0
+  champion_posterior: mean=467.0547; correct=968, wrong=55, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=454.2493; correct=956, wrong=67, empty=0, check_abstain=0, censored=0
+
+e1_n1024_0.5 (n=1023)
+  champion_singleton: mean=169.7175; correct=1004, wrong=16, empty=3, check_abstain=0, censored=0
+  champion_range: mean=168.2522; correct=1004, wrong=18, empty=1, check_abstain=0, censored=0
+  champion_check: mean=169.7175; correct=1004, wrong=16, empty=3, check_abstain=0, censored=0
+  champion_posterior: mean=142.5718; correct=967, wrong=56, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=144.0156; correct=972, wrong=50, empty=0, check_abstain=0, censored=1
+
+e1_n16_0.2 (n=480)
+  champion_singleton: mean=1126.2479; correct=474, wrong=5, empty=1, check_abstain=0, censored=0
+  champion_range: mean=1104.3000; correct=475, wrong=5, empty=0, check_abstain=0, censored=0
+  champion_check: mean=1126.2479; correct=474, wrong=5, empty=1, check_abstain=0, censored=0
+  champion_posterior: mean=850.2479; correct=459, wrong=21, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=854.9458; correct=452, wrong=27, empty=0, check_abstain=0, censored=1
+
+e1_n16_0.3 (n=480)
+  champion_singleton: mean=348.3167; correct=476, wrong=4, empty=0, check_abstain=0, censored=0
+  champion_range: mean=342.9688; correct=476, wrong=4, empty=0, check_abstain=0, censored=0
+  champion_check: mean=348.3167; correct=476, wrong=4, empty=0, check_abstain=0, censored=0
+  champion_posterior: mean=263.9625; correct=459, wrong=21, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=258.1187; correct=453, wrong=27, empty=0, check_abstain=0, censored=0
+
+e1_n16_0.5 (n=480)
+  champion_singleton: mean=108.1875; correct=473, wrong=6, empty=1, check_abstain=0, censored=0
+  champion_range: mean=106.0771; correct=474, wrong=5, empty=1, check_abstain=0, censored=0
+  champion_check: mean=107.9771; correct=472, wrong=6, empty=1, check_abstain=1, censored=0
+  champion_posterior: mean=85.6917; correct=465, wrong=15, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=85.7875; correct=464, wrong=16, empty=0, check_abstain=0, censored=0
+
+e1_n16_low (n=480)
+  champion_singleton: mean=679.1250; correct=474, wrong=5, empty=1, check_abstain=0, censored=0
+  champion_range: mean=669.6812; correct=474, wrong=6, empty=0, check_abstain=0, censored=0
+  champion_check: mean=679.1250; correct=474, wrong=5, empty=1, check_abstain=0, censored=0
+  champion_posterior: mean=537.4583; correct=463, wrong=17, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=540.3521; correct=462, wrong=18, empty=0, check_abstain=0, censored=0
+
+e1_n256_0.2 (n=510)
+  champion_singleton: mean=1598.2902; correct=508, wrong=2, empty=0, check_abstain=0, censored=0
+  champion_range: mean=1588.9412; correct=508, wrong=2, empty=0, check_abstain=0, censored=0
+  champion_check: mean=1598.2902; correct=508, wrong=2, empty=0, check_abstain=0, censored=0
+  champion_posterior: mean=1271.6059; correct=481, wrong=29, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=1245.7176; correct=470, wrong=40, empty=0, check_abstain=0, censored=0
+
+e1_n256_0.3 (n=510)
+  champion_singleton: mean=499.9314; correct=500, wrong=8, empty=2, check_abstain=0, censored=0
+  champion_range: mean=498.3667; correct=500, wrong=8, empty=2, check_abstain=0, censored=0
+  champion_check: mean=499.9314; correct=500, wrong=8, empty=2, check_abstain=0, censored=0
+  champion_posterior: mean=392.7961; correct=471, wrong=39, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=390.5647; correct=480, wrong=30, empty=0, check_abstain=0, censored=0
+
+e1_n256_0.5 (n=510)
+  champion_singleton: mean=149.1549; correct=505, wrong=5, empty=0, check_abstain=0, censored=0
+  champion_range: mean=148.4157; correct=505, wrong=5, empty=0, check_abstain=0, censored=0
+  champion_check: mean=149.1549; correct=505, wrong=5, empty=0, check_abstain=0, censored=0
+  champion_posterior: mean=124.6333; correct=489, wrong=21, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=124.5392; correct=485, wrong=25, empty=0, check_abstain=0, censored=0
+
+e1_n256_low (n=510)
+  champion_singleton: mean=1001.2196; correct=496, wrong=12, empty=2, check_abstain=0, censored=0
+  champion_range: mean=990.1392; correct=497, wrong=12, empty=1, check_abstain=0, censored=0
+  champion_check: mean=1001.2196; correct=496, wrong=12, empty=2, check_abstain=0, censored=0
+  champion_posterior: mean=833.7392; correct=478, wrong=32, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=821.0098; correct=479, wrong=31, empty=0, check_abstain=0, censored=0
+
+e1_n64_0.15 (n=315)
+  champion_singleton: mean=4965.6794; correct=306, wrong=8, empty=1, check_abstain=0, censored=0
+  champion_range: mean=4947.7016; correct=306, wrong=9, empty=0, check_abstain=0, censored=0
+  champion_check: mean=4965.6794; correct=306, wrong=8, empty=1, check_abstain=0, censored=0
+  champion_posterior: mean=3871.4063; correct=293, wrong=22, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=3876.4286; correct=292, wrong=23, empty=0, check_abstain=0, censored=0
+
+e1_n64_0.2 (n=504)
+  champion_singleton: mean=1330.2659; correct=490, wrong=13, empty=1, check_abstain=0, censored=0
+  champion_range: mean=1313.9444; correct=491, wrong=12, empty=1, check_abstain=0, censored=0
+  champion_check: mean=1330.2659; correct=490, wrong=13, empty=1, check_abstain=0, censored=0
+  champion_posterior: mean=1031.6270; correct=463, wrong=41, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=1051.0159; correct=455, wrong=48, empty=0, check_abstain=0, censored=1
+
+e1_n64_0.3 (n=504)
+  champion_singleton: mean=419.4623; correct=496, wrong=7, empty=1, check_abstain=0, censored=0
+  champion_range: mean=417.1746; correct=496, wrong=7, empty=1, check_abstain=0, censored=0
+  champion_check: mean=419.4623; correct=496, wrong=7, empty=1, check_abstain=0, censored=0
+  champion_posterior: mean=333.3036; correct=476, wrong=28, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=336.4702; correct=476, wrong=28, empty=0, check_abstain=0, censored=0
+
+e1_n64_0.5 (n=504)
+  champion_singleton: mean=129.9683; correct=498, wrong=6, empty=0, check_abstain=0, censored=0
+  champion_range: mean=127.9484; correct=498, wrong=6, empty=0, check_abstain=0, censored=0
+  champion_check: mean=129.9683; correct=498, wrong=6, empty=0, check_abstain=0, censored=0
+  champion_posterior: mean=106.1032; correct=485, wrong=19, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=103.3393; correct=483, wrong=21, empty=0, check_abstain=0, censored=0
+
+e1_n64_low (n=504)
+  champion_singleton: mean=835.3036; correct=498, wrong=4, empty=2, check_abstain=0, censored=0
+  champion_range: mean=827.6409; correct=499, wrong=4, empty=1, check_abstain=0, censored=0
+  champion_check: mean=835.3036; correct=498, wrong=4, empty=2, check_abstain=0, censored=0
+  champion_posterior: mean=679.1230; correct=485, wrong=19, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=671.2659; correct=476, wrong=28, empty=0, check_abstain=0, censored=0
+
+e2_n64_prior (n=512)
+  champion_singleton: mean=806.6797; correct=465, wrong=4, empty=1, check_abstain=0, censored=42
+  champion_range: mean=800.7441; correct=465, wrong=4, empty=1, check_abstain=0, censored=42
+  champion_check: mean=806.6797; correct=465, wrong=4, empty=1, check_abstain=0, censored=42
+  champion_posterior: mean=705.1562; correct=458, wrong=18, empty=0, check_abstain=0, censored=36
+  saved_bayes: mean=711.1367; correct=458, wrong=16, empty=0, check_abstain=0, censored=38
+
+e3_dose_bursty_0.25 (n=504)
+  champion_singleton: mean=456.9921; correct=415, wrong=84, empty=5, check_abstain=0, censored=0
+  champion_range: mean=443.0833; correct=418, wrong=84, empty=2, check_abstain=0, censored=0
+  champion_check: mean=390.0933; correct=337, wrong=68, empty=1, check_abstain=98, censored=0
+  champion_posterior: mean=306.0833; correct=339, wrong=165, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=315.9246; correct=329, wrong=174, empty=0, check_abstain=0, censored=1
+
+e3_dose_bursty_0.75 (n=504)
+  champion_singleton: mean=116.1647; correct=60, wrong=440, empty=4, check_abstain=0, censored=0
+  champion_range: mean=112.5734; correct=75, wrong=426, empty=3, check_abstain=0, censored=0
+  champion_check: mean=82.9603; correct=43, wrong=316, empty=2, check_abstain=143, censored=0
+  champion_posterior: mean=96.3313; correct=57, wrong=447, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=99.4226; correct=45, wrong=459, empty=0, check_abstain=0, censored=0
+
+e3_dose_drift_0.25 (n=504)
+  champion_singleton: mean=395.7361; correct=496, wrong=8, empty=0, check_abstain=0, censored=0
+  champion_range: mean=392.9107; correct=496, wrong=8, empty=0, check_abstain=0, censored=0
+  champion_check: mean=395.7361; correct=496, wrong=8, empty=0, check_abstain=0, censored=0
+  champion_posterior: mean=318.1647; correct=476, wrong=28, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=323.1528; correct=480, wrong=24, empty=0, check_abstain=0, censored=0
+
+e3_dose_drift_1.0 (n=504)
+  champion_singleton: mean=458.6230; correct=497, wrong=6, empty=1, check_abstain=0, censored=0
+  champion_range: mean=455.7440; correct=497, wrong=6, empty=1, check_abstain=0, censored=0
+  champion_check: mean=458.6230; correct=497, wrong=6, empty=1, check_abstain=0, censored=0
+  champion_posterior: mean=376.8631; correct=460, wrong=44, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=402.0417; correct=473, wrong=31, empty=0, check_abstain=0, censored=0
+
+e3_dose_jitter_0.1 (n=504)
+  champion_singleton: mean=433.2222; correct=492, wrong=11, empty=1, check_abstain=0, censored=0
+  champion_range: mean=427.2976; correct=492, wrong=12, empty=0, check_abstain=0, censored=0
+  champion_check: mean=433.2222; correct=492, wrong=11, empty=1, check_abstain=0, censored=0
+  champion_posterior: mean=330.8353; correct=462, wrong=42, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=336.4067; correct=471, wrong=33, empty=0, check_abstain=0, censored=0
+
+e3_dose_ramp_2 (n=504)
+  champion_singleton: mean=977.0476; correct=492, wrong=6, empty=3, check_abstain=0, censored=3
+  champion_range: mean=944.4802; correct=494, wrong=8, empty=0, check_abstain=0, censored=2
+  champion_check: mean=977.0476; correct=492, wrong=6, empty=3, check_abstain=0, censored=3
+  champion_posterior: mean=539.2659; correct=476, wrong=28, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=513.5595; correct=468, wrong=35, empty=0, check_abstain=0, censored=1
+
+e3_dose_ramp_8 (n=504)
+  champion_singleton: mean=3675.3948; correct=61, wrong=2, empty=0, check_abstain=0, censored=441
+  champion_range: mean=3606.1151; correct=74, wrong=2, empty=0, check_abstain=0, censored=428
+  champion_check: mean=3675.3948; correct=61, wrong=2, empty=0, check_abstain=0, censored=441
+  champion_posterior: mean=1609.6766; correct=428, wrong=23, empty=0, check_abstain=0, censored=53
+  saved_bayes: mean=1532.1329; correct=436, wrong=29, empty=0, check_abstain=0, censored=39
+
+e3_n256_0.3_broken (n=510)
+  champion_singleton: mean=429.0196; correct=379, wrong=130, empty=1, check_abstain=0, censored=0
+  champion_range: mean=427.4294; correct=380, wrong=129, empty=1, check_abstain=0, censored=0
+  champion_check: mean=429.0196; correct=379, wrong=130, empty=1, check_abstain=0, censored=0
+  champion_posterior: mean=349.6804; correct=360, wrong=150, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=356.3314; correct=382, wrong=128, empty=0, check_abstain=0, censored=0
+
+e3_n256_0.3_bursty (n=510)
+  champion_singleton: mean=375.2412; correct=153, wrong=335, empty=20, check_abstain=0, censored=2
+  champion_range: mean=363.1353; correct=165, wrong=329, empty=14, check_abstain=0, censored=2
+  champion_check: mean=199.7294; correct=54, wrong=211, empty=2, check_abstain=243, censored=0
+  champion_posterior: mean=236.6412; correct=125, wrong=385, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=233.1098; correct=97, wrong=412, empty=0, check_abstain=0, censored=1
+
+e3_n256_0.3_drift (n=510)
+  champion_singleton: mean=472.5863; correct=500, wrong=8, empty=2, check_abstain=0, censored=0
+  champion_range: mean=469.7549; correct=500, wrong=9, empty=1, check_abstain=0, censored=0
+  champion_check: mean=472.5863; correct=500, wrong=8, empty=2, check_abstain=0, censored=0
+  champion_posterior: mean=387.5392; correct=468, wrong=42, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=400.2510; correct=471, wrong=39, empty=0, check_abstain=0, censored=0
+
+e3_n256_0.3_jitter (n=510)
+  champion_singleton: mean=608.5157; correct=449, wrong=57, empty=3, check_abstain=0, censored=1
+  champion_range: mean=598.8471; correct=456, wrong=53, empty=0, check_abstain=0, censored=1
+  champion_check: mean=608.5157; correct=449, wrong=57, empty=3, check_abstain=0, censored=1
+  champion_posterior: mean=410.8078; correct=406, wrong=104, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=421.1235; correct=403, wrong=107, empty=0, check_abstain=0, censored=0
+
+e3_n256_0.3_partial_fix (n=510)
+  champion_singleton: mean=629.8765; correct=498, wrong=12, empty=0, check_abstain=0, censored=0
+  champion_range: mean=627.6588; correct=498, wrong=12, empty=0, check_abstain=0, censored=0
+  champion_check: mean=629.8765; correct=498, wrong=12, empty=0, check_abstain=0, censored=0
+  champion_posterior: mean=545.9843; correct=480, wrong=30, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=564.4980; correct=470, wrong=40, empty=0, check_abstain=0, censored=0
+
+e3_n256_0.3_ramp (n=510)
+  champion_singleton: mean=2900.4922; correct=251, wrong=10, empty=0, check_abstain=0, censored=249
+  champion_range: mean=2810.5098; correct=270, wrong=11, empty=0, check_abstain=0, censored=229
+  champion_check: mean=2900.4922; correct=251, wrong=10, empty=0, check_abstain=0, censored=249
+  champion_posterior: mean=1028.8157; correct=463, wrong=44, empty=0, check_abstain=0, censored=3
+  saved_bayes: mean=969.7902; correct=473, wrong=36, empty=0, check_abstain=0, censored=1
+
+e3_n256_0.3_two_step (n=510)
+  champion_singleton: mean=1866.9569; correct=475, wrong=7, empty=2, check_abstain=0, censored=26
+  champion_range: mean=1858.1490; correct=476, wrong=6, empty=2, check_abstain=0, censored=26
+  champion_check: mean=1866.9569; correct=475, wrong=7, empty=2, check_abstain=0, censored=26
+  champion_posterior: mean=1200.6667; correct=444, wrong=63, empty=0, check_abstain=0, censored=3
+  saved_bayes: mean=1160.2098; correct=430, wrong=77, empty=0, check_abstain=0, censored=3
+
+e3_n64_0.2_broken (n=252)
+  champion_singleton: mean=662.2579; correct=90, wrong=162, empty=0, check_abstain=0, censored=0
+  champion_range: mean=660.1865; correct=90, wrong=162, empty=0, check_abstain=0, censored=0
+  champion_check: mean=662.1508; correct=90, wrong=159, empty=0, check_abstain=3, censored=0
+  champion_posterior: mean=544.7619; correct=85, wrong=167, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=552.8492; correct=81, wrong=171, empty=0, check_abstain=0, censored=0
+
+e3_n64_0.2_bursty (n=252)
+  champion_singleton: mean=782.5952; correct=52, wrong=191, empty=9, check_abstain=0, censored=0
+  champion_range: mean=703.0397; correct=56, wrong=191, empty=5, check_abstain=0, censored=0
+  champion_check: mean=208.9563; correct=11, wrong=83, empty=1, check_abstain=157, censored=0
+  champion_posterior: mean=443.9048; correct=40, wrong=212, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=438.1508; correct=51, wrong=201, empty=0, check_abstain=0, censored=0
+
+e3_n64_0.2_drift (n=252)
+  champion_singleton: mean=1150.4206; correct=248, wrong=3, empty=1, check_abstain=0, censored=0
+  champion_range: mean=1141.4524; correct=248, wrong=3, empty=1, check_abstain=0, censored=0
+  champion_check: mean=1150.4206; correct=248, wrong=3, empty=1, check_abstain=0, censored=0
+  champion_posterior: mean=905.5595; correct=233, wrong=19, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=939.4087; correct=227, wrong=24, empty=0, check_abstain=0, censored=1
+
+e3_n64_0.2_jitter (n=252)
+  champion_singleton: mean=1609.1270; correct=161, wrong=84, empty=4, check_abstain=0, censored=3
+  champion_range: mean=1584.3889; correct=168, wrong=80, empty=3, check_abstain=0, censored=1
+  champion_check: mean=1609.1270; correct=161, wrong=84, empty=4, check_abstain=0, censored=3
+  champion_posterior: mean=1000.2500; correct=150, wrong=102, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=984.2698; correct=149, wrong=102, empty=0, check_abstain=0, censored=1
+
+e3_n64_0.2_partial_fix (n=252)
+  champion_singleton: mean=1815.3810; correct=240, wrong=9, empty=0, check_abstain=0, censored=3
+  champion_range: mean=1804.2063; correct=240, wrong=9, empty=0, check_abstain=0, censored=3
+  champion_check: mean=1815.3810; correct=240, wrong=9, empty=0, check_abstain=0, censored=3
+  champion_posterior: mean=1451.9881; correct=229, wrong=22, empty=0, check_abstain=0, censored=1
+  saved_bayes: mean=1457.6310; correct=225, wrong=26, empty=0, check_abstain=0, censored=1
+
+e3_n64_0.2_ramp (n=252)
+  champion_singleton: mean=6585.0198; correct=84, wrong=6, empty=0, check_abstain=0, censored=162
+  champion_range: mean=6408.8571; correct=94, wrong=6, empty=0, check_abstain=0, censored=152
+  champion_check: mean=6585.0198; correct=84, wrong=6, empty=0, check_abstain=0, censored=162
+  champion_posterior: mean=2813.9048; correct=221, wrong=24, empty=0, check_abstain=0, censored=7
+  saved_bayes: mean=2757.4365; correct=223, wrong=24, empty=0, check_abstain=0, censored=5
+
+e3_n64_0.2_two_step (n=252)
+  champion_singleton: mean=4594.6508; correct=201, wrong=11, empty=1, check_abstain=0, censored=39
+  champion_range: mean=4545.7381; correct=203, wrong=9, empty=1, check_abstain=0, censored=39
+  champion_check: mean=4594.6508; correct=201, wrong=11, empty=1, check_abstain=0, censored=39
+  champion_posterior: mean=3034.6944; correct=203, wrong=34, empty=0, check_abstain=0, censored=15
+  saved_bayes: mean=2879.5833; correct=209, wrong=34, empty=0, check_abstain=0, censored=9
+
+e3_n64_0.3_broken (n=252)
+  champion_singleton: mean=288.6548; correct=123, wrong=129, empty=0, check_abstain=0, censored=0
+  champion_range: mean=285.4206; correct=123, wrong=129, empty=0, check_abstain=0, censored=0
+  champion_check: mean=288.4206; correct=122, wrong=129, empty=0, check_abstain=1, censored=0
+  champion_posterior: mean=240.9325; correct=117, wrong=135, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=243.6706; correct=121, wrong=130, empty=0, check_abstain=0, censored=1
+
+e3_n64_0.3_bursty (n=252)
+  champion_singleton: mean=313.2381; correct=91, wrong=154, empty=6, check_abstain=0, censored=1
+  champion_range: mean=300.0437; correct=97, wrong=151, empty=3, check_abstain=0, censored=1
+  champion_check: mean=167.5754; correct=41, wrong=105, empty=0, check_abstain=106, censored=0
+  champion_posterior: mean=199.8492; correct=80, wrong=172, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=192.3929; correct=66, wrong=186, empty=0, check_abstain=0, censored=0
+
+e3_n64_0.3_drift (n=252)
+  champion_singleton: mean=410.6667; correct=245, wrong=5, empty=2, check_abstain=0, censored=0
+  champion_range: mean=408.8452; correct=245, wrong=5, empty=2, check_abstain=0, censored=0
+  champion_check: mean=410.6667; correct=245, wrong=5, empty=2, check_abstain=0, censored=0
+  champion_posterior: mean=333.7738; correct=233, wrong=19, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=331.4683; correct=236, wrong=16, empty=0, check_abstain=0, censored=0
+
+e3_n64_0.3_jitter (n=252)
+  champion_singleton: mean=472.0000; correct=221, wrong=28, empty=2, check_abstain=0, censored=1
+  champion_range: mean=456.1389; correct=225, wrong=25, empty=2, check_abstain=0, censored=0
+  champion_check: mean=472.0000; correct=221, wrong=28, empty=2, check_abstain=0, censored=1
+  champion_posterior: mean=330.6032; correct=199, wrong=53, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=356.7103; correct=201, wrong=51, empty=0, check_abstain=0, censored=0
+
+e3_n64_0.3_jitter_strong (n=252)
+  champion_singleton: mean=460.5992; correct=139, wrong=112, empty=0, check_abstain=0, censored=1
+  champion_range: mean=452.2619; correct=150, wrong=101, empty=0, check_abstain=0, censored=1
+  champion_check: mean=460.5992; correct=139, wrong=112, empty=0, check_abstain=0, censored=1
+  champion_posterior: mean=285.7817; correct=130, wrong=122, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=291.5635; correct=112, wrong=140, empty=0, check_abstain=0, censored=0
+
+e3_n64_0.3_partial_fix (n=252)
+  champion_singleton: mean=541.2341; correct=241, wrong=10, empty=0, check_abstain=0, censored=1
+  champion_range: mean=537.1587; correct=241, wrong=10, empty=0, check_abstain=0, censored=1
+  champion_check: mean=541.2341; correct=241, wrong=10, empty=0, check_abstain=0, censored=1
+  champion_posterior: mean=439.5635; correct=228, wrong=24, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=451.2659; correct=226, wrong=26, empty=0, check_abstain=0, censored=0
+
+e3_n64_0.3_ramp (n=252)
+  champion_singleton: mean=2337.8849; correct=98, wrong=4, empty=1, check_abstain=0, censored=149
+  champion_range: mean=2260.5952; correct=113, wrong=5, empty=1, check_abstain=0, censored=133
+  champion_check: mean=2337.8849; correct=98, wrong=4, empty=1, check_abstain=0, censored=149
+  champion_posterior: mean=870.5754; correct=236, wrong=15, empty=0, check_abstain=0, censored=1
+  saved_bayes: mean=864.0317; correct=233, wrong=16, empty=0, check_abstain=0, censored=3
+
+e3_n64_0.3_ramp_range8 (n=504)
+  champion_singleton: mean=2814.1071; correct=258, wrong=6, empty=3, check_abstain=0, censored=237
+  champion_range: mean=2600.1885; correct=301, wrong=6, empty=1, check_abstain=0, censored=196
+  champion_check: mean=2814.1071; correct=258, wrong=6, empty=3, check_abstain=0, censored=237
+  champion_posterior: mean=886.0794; correct=474, wrong=27, empty=0, check_abstain=0, censored=3
+  saved_bayes: mean=849.5258; correct=468, wrong=34, empty=0, check_abstain=0, censored=2
+
+e3_n64_0.3_two_step (n=252)
+  champion_singleton: mean=1499.6429; correct=226, wrong=5, empty=0, check_abstain=0, censored=21
+  champion_range: mean=1485.8373; correct=228, wrong=4, empty=0, check_abstain=0, censored=20
+  champion_check: mean=1499.6429; correct=226, wrong=5, empty=0, check_abstain=0, censored=21
+  champion_posterior: mean=929.6508; correct=208, wrong=42, empty=0, check_abstain=0, censored=2
+  saved_bayes: mean=954.3929; correct=209, wrong=36, empty=0, check_abstain=0, censored=7
+
+e3_n64_0.3_two_step_range8 (n=504)
+  champion_singleton: mean=1531.0198; correct=470, wrong=13, empty=1, check_abstain=0, censored=20
+  champion_range: mean=1502.0258; correct=473, wrong=12, empty=0, check_abstain=0, censored=19
+  champion_check: mean=1526.1528; correct=469, wrong=13, empty=1, check_abstain=1, censored=20
+  champion_posterior: mean=934.8155; correct=432, wrong=70, empty=0, check_abstain=0, censored=2
+  saved_bayes: mean=933.0020; correct=427, wrong=73, empty=0, check_abstain=0, censored=4
+
+e3_n64_0.5_broken (n=504)
+  champion_singleton: mean=113.1270; correct=332, wrong=172, empty=0, check_abstain=0, censored=0
+  champion_range: mean=111.8571; correct=332, wrong=172, empty=0, check_abstain=0, censored=0
+  champion_check: mean=113.1270; correct=332, wrong=172, empty=0, check_abstain=0, censored=0
+  champion_posterior: mean=95.5952; correct=324, wrong=180, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=93.8056; correct=329, wrong=175, empty=0, check_abstain=0, censored=0
+
+e3_n64_0.5_bursty (n=504)
+  champion_singleton: mean=125.9881; correct=306, wrong=191, empty=7, check_abstain=0, censored=0
+  champion_range: mean=120.7480; correct=318, wrong=184, empty=2, check_abstain=0, censored=0
+  champion_check: mean=98.9087; correct=237, wrong=161, empty=3, check_abstain=103, censored=0
+  champion_posterior: mean=83.9206; correct=256, wrong=248, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=87.5357; correct=220, wrong=284, empty=0, check_abstain=0, censored=0
+
+e3_n64_0.5_drift (n=504)
+  champion_singleton: mean=128.6567; correct=498, wrong=6, empty=0, check_abstain=0, censored=0
+  champion_range: mean=126.8750; correct=498, wrong=6, empty=0, check_abstain=0, censored=0
+  champion_check: mean=128.6567; correct=498, wrong=6, empty=0, check_abstain=0, censored=0
+  champion_posterior: mean=105.8571; correct=484, wrong=20, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=103.4067; correct=482, wrong=22, empty=0, check_abstain=0, censored=0
+
+e3_n64_0.5_jitter (n=504)
+  champion_singleton: mean=135.7302; correct=487, wrong=15, empty=2, check_abstain=0, censored=0
+  champion_range: mean=134.7579; correct=487, wrong=16, empty=1, check_abstain=0, censored=0
+  champion_check: mean=135.7302; correct=487, wrong=15, empty=2, check_abstain=0, censored=0
+  champion_posterior: mean=109.6171; correct=471, wrong=33, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=112.0218; correct=471, wrong=33, empty=0, check_abstain=0, censored=0
+
+e3_n64_0.5_partial_fix (n=504)
+  champion_singleton: mean=164.8373; correct=494, wrong=10, empty=0, check_abstain=0, censored=0
+  champion_range: mean=163.9821; correct=494, wrong=10, empty=0, check_abstain=0, censored=0
+  champion_check: mean=164.8373; correct=494, wrong=10, empty=0, check_abstain=0, censored=0
+  champion_posterior: mean=144.3413; correct=483, wrong=21, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=155.5000; correct=449, wrong=55, empty=0, check_abstain=0, censored=0
+
+e3_n64_0.5_ramp (n=504)
+  champion_singleton: mean=1096.6429; correct=359, wrong=11, empty=4, check_abstain=0, censored=130
+  champion_range: mean=1026.0893; correct=378, wrong=11, empty=2, check_abstain=0, censored=113
+  champion_check: mean=1095.8492; correct=359, wrong=11, empty=4, check_abstain=1, censored=129
+  champion_posterior: mean=313.9702; correct=482, wrong=22, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=296.4881; correct=488, wrong=16, empty=0, check_abstain=0, censored=0
+
+e3_n64_0.5_two_step (n=504)
+  champion_singleton: mean=489.6349; correct=483, wrong=16, empty=2, check_abstain=0, censored=3
+  champion_range: mean=479.6766; correct=485, wrong=16, empty=1, check_abstain=0, censored=2
+  champion_check: mean=489.6349; correct=483, wrong=16, empty=2, check_abstain=0, censored=3
+  champion_posterior: mean=306.2083; correct=441, wrong=63, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=296.8710; correct=439, wrong=64, empty=0, check_abstain=0, censored=1
+
+e6_n64_0.3_boost10 (n=504)
+  champion_singleton: mean=433.1171; correct=495, wrong=8, empty=1, check_abstain=0, censored=0
+  champion_range: mean=429.0278; correct=495, wrong=9, empty=0, check_abstain=0, censored=0
+  champion_check: mean=433.1171; correct=495, wrong=8, empty=1, check_abstain=0, censored=0
+  champion_posterior: mean=338.9167; correct=477, wrong=27, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=335.2282; correct=478, wrong=26, empty=0, check_abstain=0, censored=0
+
+e6_n64_0.3_expects_somewhat_worse (n=504)
+  champion_singleton: mean=440.3155; correct=492, wrong=9, empty=3, check_abstain=0, censored=0
+  champion_range: mean=435.1230; correct=492, wrong=10, empty=2, check_abstain=0, censored=0
+  champion_check: mean=440.3155; correct=492, wrong=9, empty=3, check_abstain=0, censored=0
+  champion_posterior: mean=312.9464; correct=461, wrong=43, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=298.3671; correct=444, wrong=60, empty=0, check_abstain=0, censored=0
+
+e6_n64_0.3_expects_worse (n=504)
+  champion_singleton: mean=484.5476; correct=493, wrong=9, empty=2, check_abstain=0, censored=0
+  champion_range: mean=477.6706; correct=493, wrong=11, empty=0, check_abstain=0, censored=0
+  champion_check: mean=484.5476; correct=493, wrong=9, empty=2, check_abstain=0, censored=0
+  champion_posterior: mean=292.6230; correct=416, wrong=88, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=263.7262; correct=373, wrong=131, empty=0, check_abstain=0, censored=0
+
+e6_n64_0.3_matched_s1 (n=504)
+  champion_singleton: mean=457.8452; correct=495, wrong=7, empty=2, check_abstain=0, censored=0
+  champion_range: mean=455.7222; correct=495, wrong=8, empty=1, check_abstain=0, censored=0
+  champion_check: mean=457.8452; correct=495, wrong=7, empty=2, check_abstain=0, censored=0
+  champion_posterior: mean=321.4504; correct=456, wrong=48, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=326.8849; correct=448, wrong=56, empty=0, check_abstain=0, censored=0
+
+e6_n64_0.3_matched_s20 (n=504)
+  champion_singleton: mean=325.6290; correct=499, wrong=5, empty=0, check_abstain=0, censored=0
+  champion_range: mean=322.2996; correct=499, wrong=5, empty=0, check_abstain=0, censored=0
+  champion_check: mean=325.6290; correct=499, wrong=5, empty=0, check_abstain=0, censored=0
+  champion_posterior: mean=259.4306; correct=487, wrong=17, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=249.9683; correct=488, wrong=16, empty=0, check_abstain=0, censored=0
+
+e6_n64_0.3_matched_s4 (n=504)
+  champion_singleton: mean=422.0774; correct=500, wrong=3, empty=1, check_abstain=0, censored=0
+  champion_range: mean=417.9504; correct=500, wrong=3, empty=1, check_abstain=0, censored=0
+  champion_check: mean=422.0774; correct=500, wrong=3, empty=1, check_abstain=0, censored=0
+  champion_posterior: mean=328.8313; correct=485, wrong=19, empty=0, check_abstain=0, censored=0
+  saved_bayes: mean=308.3492; correct=470, wrong=34, empty=0, check_abstain=0, censored=0

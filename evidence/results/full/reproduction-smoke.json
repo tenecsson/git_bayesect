@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "scope": "Fresh production runner versus retained paths: all observations, four endpoint families at all thresholds, final counts/wealth/model-check and posterior-settling diagnostics",
+  "trials": [
+    {
+      "cell": "e1_n64_0.3",
+      "trial": 0,
+      "observations": 818
+    },
+    {
+      "cell": "e2_n64_prior",
+      "trial": 0,
+      "observations": 33
+    },
+    {
+      "cell": "e3_n64_0.3_bursty",
+      "trial": 0,
+      "observations": 3000
+    },
+    {
+      "cell": "e3_n64_0.3_ramp",
+      "trial": 0,
+      "observations": 3000
+    },
+    {
+      "cell": "e6_n64_0.3_expects_worse",
+      "trial": 0,
+      "observations": 834
+    }
+  ],
+  "production_sha256": "46f859dbcd53ab09fd847ee3bebe5168408c5cfde532d54d757ca50a7a376cd5",
+  "new_unique_environments": 0
+}

@@ -1,0 +1,15 @@
+{
+  "tests": "15 passed (34.60s), including full safe-log replay and >128KiB restoration",
+  "mypy": "Success: no issues found in 4 source files (mypy .)",
+  "cli_surface": "cli_* signatures match safe-stopping",
+  "independent_review": "Three log restoration findings resolved; focused followup found no material unresolved findings",
+  "replay": {
+    "paths": 63,
+    "observations": 104054,
+    "max_error": 0.0
+  },
+  "base": "ba9dd48514d134f91d9d9c6fb4d9c4fb9e3ae5ca",
+  "source_sha256": "46f859dbcd53ab09fd847ee3bebe5168408c5cfde532d54d757ca50a7a376cd5",
+  "implementation_commit": "c3693aecfd90d909ce29a81a1a8e8c153f49bf99",
+  "replay_artifact": "packaged-replay.json"
+}

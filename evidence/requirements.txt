@@ -1,0 +1,4 @@
+# Evidence environment: Python 3.12 (the production package has fewer dependencies).
+numpy==2.2.3
+scipy==1.17.1
+matplotlib==3.10.8

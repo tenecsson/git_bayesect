@@ -1,0 +1,4 @@
+cell,n_trials,paired_uncensored_trials,censored_at_either_alpha,mean_extra_samples_per_nat_uncensored,mean_extra_samples_per_log10_alpha_uncensored,oracle_capacity_nats_per_sample,oracle_samples_per_nat,interpretation
+e1_n64_0.2,504,504,0,104.17380376034072,239.86904761904762,0.009988333284034506,100.11680343090015,"Uncensored paired subset only; capped observations are listed, not treated as exact endpoints."
+e1_n64_0.3,504,504,0,33.082209819900086,76.17460317460318,0.03257281331361114,30.700449186626805,"Uncensored paired subset only; capped observations are listed, not treated as exact endpoints."
+e1_n64_0.5,504,504,0,10.361887192235322,23.859126984126984,0.10230118910651201,9.77505744296715,"Uncensored paired subset only; capped observations are listed, not treated as exact endpoints."

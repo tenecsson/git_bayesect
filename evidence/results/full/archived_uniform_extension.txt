@@ -1,0 +1,5 @@
+N=64, confidence 0.95: share of all trials answered wrongly
+rates          at stop 1.5x longer   2x longer   3x longer
+0.1->0.2         0.095       0.083       0.067       0.048
+0.1->0.3         0.056       0.042       0.030       0.022
+0.1->0.5         0.042       0.034       0.024       0.018

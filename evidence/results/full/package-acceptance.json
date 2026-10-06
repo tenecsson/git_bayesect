@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "design_jobs_reconciled": 27287,
+  "local_document_links": 21,
+  "endpoint_rows": 459272,
+  "endpoint_aggregates": 5025,
+  "mypy": "Success: no issues found in 10 source files",
+  "documentation_review": "Original section headings preserved; retained values and replacement OG comparisons checked against saved results.",
+  "safe_commit": "c3693aecfd90d909ce29a81a1a8e8c153f49bf99",
+  "new_baseline_trials": 0,
+  "diff_whitespace_check": "passed; CSV line endings retained via scoped attributes",
+  "published_input_artifacts_verified": 72,
+  "byte_identical_source_artifacts": 66,
+  "retained_methods": [
+    "champion_singleton",
+    "champion_range",
+    "champion_check",
+    "champion_posterior",
+    "saved_bayes"
+  ]
+}
